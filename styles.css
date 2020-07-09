@@ -2,25 +2,20 @@ body {
   padding: 0;
   margin: 0;
 }
-#header {
-  display: flex;
-}
-#logo {
-  background-color: lightblue;
-  border-color: red;
-}
-#navegacion {
-  background-color: aqua;
-  list-style: none;
-}
-.item {
-  display: inline;
-  background-color: yellowgreen;
-}
+
 li {
   list-style: none;
 }
 h1 {
-  background-color: cyan;
   text-align: center;
+}
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 3px;
+}
+textarea {
+  resize: none;
 }
