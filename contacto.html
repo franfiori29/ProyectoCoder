@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-AR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,33 +18,36 @@
           <li class="item"><a href="contacto.html">CONTACTO</a></li>
         </ul>
       </nav>
-      <main>
-        <form action="POST">
-          <label for="nombre">Nombre:</label>
-          <input type="text" name="nombre" required />
-          <br />
-          <label for="apellido">Apellido:</label>
-          <input type="text" name="apellido" required />
-          <br />
-          <label for="mail">E-mail:</label>
-          <input type="email" name="mail" required />
-          <br />
-          <label for="estado_civil">Estado civil:</label>
-          <select name="estado_civil" required>
-            <option value="soltero">Soltero/a</option>
-            <option value="casado">Casado/a</option>
-            <option value="viudo">Viudo/a</option>
-          </select>
-          <br />
-          <label for="newsletter">¿Desea recibir el Newsletter?</label>
-          <input type="checkbox" name="newsletter" />
-          <br />
-          <textarea name="comentarios" cols="30" rows="10"></textarea>
-          <br />
-          <input type="submit" value="Enviar formulario" />
-          <input type="reset" value="Limpiar formulario" />
-        </form>
-      </main>
     </header>
+    <main>
+      <form action="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required />
+        <br />
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" required />
+        <br />
+        <label for="mail">E-mail:</label>
+        <input type="email" name="mail" required />
+        <br />
+        <label for="estado_civil">Estado civil:</label>
+        <select name="estado_civil" required>
+          <option value="soltero">Soltero/a</option>
+          <option value="casado">Casado/a</option>
+          <option value="viudo">Viudo/a</option>
+        </select>
+        <br />
+        <label for="newsletter">¿Desea recibir el Newsletter?</label>
+        <input type="checkbox" name="newsletter" />
+        <br />
+        <textarea name="comentarios" cols="30" rows="10"></textarea>
+        <br />
+        <input type="submit" value="Enviar formulario" />
+        <input type="reset" value="Limpiar formulario" />
+      </form>
+    </main>
+    <footer>
+      <div>Sobre nosotros</div>
+    </footer>
   </body>
 </html>
