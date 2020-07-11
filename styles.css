@@ -3,17 +3,21 @@
   margin: 0;
   box-sizing: border-box;
 }
-#header {
+body {
+  background-color: rgb(195, 124, 189);
+}
+header {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   min-height: 6vh;
-  width: 80%;
-  margin: auto;
+  background-color: rgb(203, 148, 255);
 }
 #logo {
-  display: flex;
-  flex: 2;
+  flex: 1;
+}
+#logo a {
+  margin-left: 10px;
 }
 nav {
   flex: 1;
@@ -22,9 +26,10 @@ nav {
   display: flex;
   justify-content: space-around;
 }
-a {
-  color: rgb(221, 132, 132);
+header a {
+  color: rgb(255, 255, 255);
   text-decoration: none;
+  letter-spacing: 2px;
 }
 li {
   list-style: none;
@@ -48,4 +53,9 @@ textarea {
 }
 .descripcion {
   color: rgb(128, 243, 136);
+}
+footer {
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(78, 49, 105);
 }
