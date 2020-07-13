@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Noto Serif JP', serif;
 }
 header {
   display: flex;
@@ -23,10 +24,13 @@ nav {
   display: flex;
   justify-content: space-around;
 }
-header a {
+.nav-links a:hover{
+  color: rgb(83, 106, 235);
+}
+header a{
   color: rgb(255, 255, 255);
   text-decoration: none;
-  letter-spacing: 2px;
+  letter-spacing: 2px;  
 }
 li {
   list-style: none;
