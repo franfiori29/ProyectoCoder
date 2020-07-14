@@ -2,14 +2,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 header {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 6vh;
-  background-color: #5D5C61;
+  background-color: #5d5c61;
+  position: sticky;
+  top: 0;
 }
 #logo {
   flex: 1;
@@ -24,13 +26,13 @@ nav {
   display: flex;
   justify-content: space-around;
 }
-.nav-links a:hover{
+.nav-links a:hover {
   color: rgb(83, 106, 235);
 }
-header a{
+header a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  letter-spacing: 2px;  
+  letter-spacing: 2px;
 }
 li {
   list-style: none;
@@ -50,15 +52,20 @@ textarea {
 }
 .titulo {
   text-align: center;
-  color: #557A95;
+  color: #00fb15;
 }
 .descripcion {
-  color: #7395AE;
+  color: #7395ae;
 }
 footer {
   display: flex;
   justify-content: space-around;
   text-align: center;
   color: aliceblue;
-  background-color: #938E94;
+  background-color: #938e94;
+}
+#main-index {
+  background-image: url("images/edificios.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
