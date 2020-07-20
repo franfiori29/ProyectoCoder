@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -30,7 +30,7 @@ nav {
 .nav-links a:hover {
   color: rgb(83, 106, 235);
 }
-header a {
+a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   letter-spacing: 2px;
@@ -69,4 +69,14 @@ footer {
   background-image: url("images/edificios.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+#about-main {
+  display: flex;
+  justify-content: center;
+}
+#about-imagen {
+  width: 80%;
+}
+#about-texto {
+  width: 80%;
 }
