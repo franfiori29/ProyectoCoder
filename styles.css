@@ -17,8 +17,8 @@ header {
 #logo {
   flex: 1;
 }
-#logo a {
-  margin-left: 10px;
+#logo a{
+  margin-left: 50px;
 }
 nav {
   flex: 1;
@@ -26,6 +26,9 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-around;
+}
+.nav-links li{
+  padding: 10px;
 }
 .nav-links a:hover {
   color: rgb(83, 106, 235);
@@ -61,6 +64,7 @@ textarea {
 footer {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   text-align: center;
   color: aliceblue;
   background-color: #938e94;
