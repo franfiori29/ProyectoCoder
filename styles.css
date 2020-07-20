@@ -71,12 +71,11 @@ footer {
   background-size: cover;
 }
 #about-main {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 #about-imagen {
   width: 80%;
 }
 #about-texto {
-  width: 80%;
+  width: 100%;
 }
