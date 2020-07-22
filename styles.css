@@ -86,3 +86,9 @@ footer {
 #sobre-nosotros:hover {
   color: rgb(34, 211, 235);
 }
+#main-contacto{
+  background-color: #2a86d1;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
