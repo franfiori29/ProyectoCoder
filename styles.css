@@ -17,7 +17,7 @@ header {
 #logo {
   flex: 1;
 }
-#logo a{
+#logo a {
   margin-left: 50px;
 }
 nav {
@@ -27,11 +27,11 @@ nav {
   display: flex;
   justify-content: space-around;
 }
-.nav-links li{
+.nav-links li {
   padding: 10px;
 }
 .nav-links a:hover {
-  color: rgb(83, 106, 235);
+  color: rgb(34, 211, 235);
 }
 a {
   color: rgb(255, 255, 255);
@@ -82,4 +82,7 @@ footer {
 }
 #about-texto {
   width: 100%;
+}
+#sobre-nosotros:hover {
+  color: rgb(34, 211, 235);
 }
