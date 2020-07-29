@@ -1,62 +1,66 @@
 <!DOCTYPE html>
 <html lang="es-AR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Contacto</title>
-  </head>
-  <body>
-    <header id="header">
-      <div id="logo">
-        <a href="index.html">LOGO</a>
-      </div>
-      <nav id="navegacion">
-        <ul class="nav-links">
-          <li class="item"><a href="proyectos.html">Proyectos</a></li>
-          <li class="item"><a href="galeria.html">Galería</a></li>
-          <li class="item"><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <form action="POST">
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" required />
-        <br />
-        <label for="apellido">Apellido:</label>
-        <input type="text" name="apellido" required />
-        <br />
-        <label for="mail">E-mail:</label>
-        <input type="email" name="mail" required />
-        <br />
-        <label for="estado_civil">Estado civil:</label>
-        <select name="estado_civil" required>
-          <option value="soltero">Soltero/a</option>
-          <option value="casado">Casado/a</option>
-          <option value="viudo">Viudo/a</option>
-        </select>
-        <br />
-        <label for="newsletter">¿Desea recibir el Newsletter?</label>
-        <input type="checkbox" name="newsletter" />
-        <br />
-        <textarea name="comentarios" cols="30" rows="10"></textarea>
-        <br />
-        <input type="submit" value="Enviar formulario" />
-        <input type="reset" value="Limpiar formulario" />
-      </form>
-    </main>
-    <footer>
-      <div id="copyright">Copyright</div>
-      <div><a id="sobre-nosotros" href="about.html">Sobre nosotros</a></div>
-      <div id="info-contacto">
-        <ul id="lista-contacto">
-          Informacion de contacto
-          <li>Dirección</li>
-          <li>Teléfono</li>
-          <li>Mail</li>
-        </ul>
-      </div>
-    </footer>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="stylesmobile.css">
+  <title>Contacto</title>
+</head>
+
+<body>
+  <header id="header">
+    <div id="logo">
+      <a href="index.html">LOGO</a>
+    </div>
+    <nav id="navegacion">
+      <ul class="nav-links">
+        <li class="item"><a href="proyectos.html">Proyectos</a></li>
+        <li class="item"><a href="galeria.html">Galería</a></li>
+        <li class="item"><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form action="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" required />
+      <br />
+      <label for="apellido">Apellido:</label>
+      <input type="text" name="apellido" required />
+      <br />
+      <label for="mail">E-mail:</label>
+      <input type="email" name="mail" required />
+      <br />
+      <label for="estado_civil">Estado civil:</label>
+      <select name="estado_civil" required>
+        <option value="soltero">Soltero/a</option>
+        <option value="casado">Casado/a</option>
+        <option value="viudo">Viudo/a</option>
+      </select>
+      <br />
+      <label for="newsletter">¿Desea recibir el Newsletter?</label>
+      <input type="checkbox" name="newsletter" />
+      <br />
+      <textarea name="comentarios" cols="30" rows="10"></textarea>
+      <br />
+      <input type="submit" value="Enviar formulario" />
+      <input type="reset" value="Limpiar formulario" />
+    </form>
+  </main>
+  <footer>
+    <div id="copyright">Copyright</div>
+    <div><a id="sobre-nosotros" href="about.html">Sobre nosotros</a></div>
+    <div id="info-contacto">
+      <ul id="lista-contacto">
+        Informacion de contacto
+        <li>Dirección</li>
+        <li>Teléfono</li>
+        <li>Mail</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
 </html>
