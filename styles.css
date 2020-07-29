@@ -91,6 +91,13 @@ footer {
   background-size: cover;
 }
 
+#main-contacto {
+  background-color: #2a86d1;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
 #about-main {
   text-align: center;
 }
