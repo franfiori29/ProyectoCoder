@@ -1,3 +1,4 @@
+@media (min-width: 1024px){
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap");
 
 * {
@@ -135,4 +136,5 @@ main {
   height: 30vh;
   width: auto;
   margin: 5px;
+}
 }
