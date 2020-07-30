@@ -44,6 +44,7 @@
 
   #navegacion {
     display: flex;
+    position: relative;
   }
 
   nav {
@@ -52,10 +53,17 @@
   }
 
   .nav-links {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row-reverse;
     display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 30px;
+    right: 10px;
+
+  }
+
+  .nav-links a {
+    font-size: 3em;
+    color: black;
   }
 
   #menu {
