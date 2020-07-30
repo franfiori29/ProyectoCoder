@@ -26,29 +26,26 @@
   </header>
   <main>
     <form action="POST">
-      <label for="nombre">Nombre:</label>
-      <input type="text" name="nombre" required />
-      <br />
-      <label for="apellido">Apellido:</label>
-      <input type="text" name="apellido" required />
-      <br />
-      <label for="mail">E-mail:</label>
-      <input type="email" name="mail" required />
-      <br />
-      <label for="estado_civil">Estado civil:</label>
-      <select name="estado_civil" required>
-        <option value="soltero">Soltero/a</option>
-        <option value="casado">Casado/a</option>
-        <option value="viudo">Viudo/a</option>
-      </select>
-      <br />
-      <label for="newsletter">¿Desea recibir el Newsletter?</label>
-      <input type="checkbox" name="newsletter" />
-      <br />
+      <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required />
+      </div>
+      <div>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" required />
+      </div>
+      <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" name="mail" required />
+      </div>
+      <div>
+        <label for="newsletter">¿Desea recibir el Newsletter?</label>
+        <input type="checkbox" name="newsletter" />
+      </div>
       <textarea name="comentarios" cols="30" rows="10"></textarea>
       <br />
-      <input type="submit" value="Enviar formulario" />
-      <input type="reset" value="Limpiar formulario" />
+      <input id="submit" type="submit" value="Enviar formulario" />
+      <input id="reset" type="reset" value="Limpiar formulario" />
     </form>
   </main>
   <footer>
