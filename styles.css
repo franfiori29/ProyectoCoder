@@ -7,6 +7,9 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
   }
+  #menu {
+    display: none;
+  }
 
   header {
     display: flex;
@@ -14,7 +17,6 @@
     align-items: center;
     min-height: 6vh;
     background-color: #5d5c61;
-    position: sticky;
     top: 0;
   }
 
@@ -53,28 +55,8 @@
     list-style: none;
   }
 
-  table,
-  th,
-  td {
-    border: 3px solid black;
-    border-collapse: collapse;
-    color: whitesmoke;
-    border-color: rgb(255, 255, 255);
-    background-color: rgb(55, 74, 243);
-    padding: 3px;
-  }
-
   textarea {
     resize: none;
-  }
-
-  .titulo {
-    text-align: center;
-    color: #00fb15;
-  }
-
-  .descripcion {
-    color: #7395ae;
   }
 
   footer {
@@ -84,12 +66,6 @@
     text-align: center;
     color: aliceblue;
     background-color: #938e94;
-  }
-
-  #main-index {
-    background-image: url("images/edificios.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   #main-contacto {
@@ -116,13 +92,7 @@
   }
 
   main {
-    background: #8e9eab;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eef2f3, #8e9eab);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: rgb(98, 119, 158, 0.6);
   }
 
   #galeriaCabildo {
@@ -136,5 +106,76 @@
     height: 30vh;
     width: auto;
     margin: 5px;
+  }
+
+  #bannerIndex {
+    position: relative;
+    text-align: center;
+  }
+
+  #mainImagen {
+    max-width: 100%;
+    height: auto;
+    filter: blur(2px);
+  }
+
+  #bannerIndex {
+    position: relative;
+    text-align: center;
+  }
+
+  #mainImagen {
+    max-width: 100%;
+    height: auto;
+    filter: blur(2px);
+  }
+
+  #descripcionIndex {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    min-width: 75%;
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    letter-spacing: 7px;
+  }
+
+  #fontanelleIndex {
+    font-size: 70px;
+    margin-bottom: 10px;
+  }
+
+  #about-imagen {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #about-texto {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .descripcion {
+    margin: 15px;
+    font-size: 30px;
+  }
+  #mainProyectos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 3;
+  }
+
+  #mainProyectos > div {
+    border: 2px solid #181412;
+    border-radius: 5px;
+    padding: 1em;
+  }
+  .tablaHead {
+    font-weight: bolder;
+    font-size: 20px;
   }
 }

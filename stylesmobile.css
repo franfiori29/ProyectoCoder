@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+    color: white;
   }
 
   body {
@@ -24,6 +25,7 @@
   textarea {
     resize: none;
     margin: 5px;
+    width: 100%;
   }
 
   header {
@@ -63,7 +65,6 @@
     top: 30px;
     right: 10px;
     z-index: 1;
-
   }
 
   .nav-links li {
@@ -82,7 +83,7 @@
   }
 
   main {
-    background: linear-gradient(to right, #eef2f3, #8e9eab);
+    background: rgb(98, 119, 158, 0.6);
   }
 
   form {
@@ -91,6 +92,18 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+  }
+
+  #divNewsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #preguntaContacto {
+    text-align: center;
+    width: 100%;
   }
 
   footer {
@@ -116,6 +129,7 @@
   form #reset {
     font-size: 20px;
     margin: 10px 15px;
+    color: #5d5c61;
   }
 
   form div {
@@ -166,4 +180,12 @@
     padding: 10px;
   }
 
+  #galeriaMain {
+    text-align: center;
+  }
+
+  #galeriaMain img {
+    max-width: 100%;
+    height: auto;
+  }
 }
