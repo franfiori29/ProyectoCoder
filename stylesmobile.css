@@ -12,6 +12,9 @@
   body {
     min-width: 282px;
   }
+  #mapa {
+    display: none;
+  }
 
   li {
     list-style: none;
@@ -95,6 +98,12 @@
   }
 
   #divNewsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #comentariosContacto {
     display: flex;
     justify-content: center;
     align-items: center;

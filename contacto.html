@@ -27,15 +27,15 @@
   <main>
     <h1 id="tituloContacto">Contactanos!</h1>
     <form action="POST">
-      <div>
+      <div id="nombreContacto">
         <label for="nombre">Nombre:</label>
         <input type="text" name="nombre" required />
       </div>
-      <div>
+      <div id="apellidoContacto">
         <label for="apellido">Apellido:</label>
         <input type="text" name="apellido" required />
       </div>
-      <div>
+      <div id="mailContacto">
         <label for="mail">E-mail:</label>
         <input type="email" name="mail" required />
       </div>
@@ -43,11 +43,15 @@
         <label for="newsletter" id="preguntaContacto">¿Desea recibir el Newsletter?</label>
         <input type="checkbox" name="newsletter" />
       </div>
-      <label for="comentarios">Dejanos tu mensaje:</label>
-      <textarea name="comentarios" cols="30" rows="10"></textarea>
+      <div id="comentariosContacto">
+        <label for="comentarios" id="mensajeContacto">Dejanos tu mensaje:</label>
+        <textarea name="comentarios" cols="30" rows="10"></textarea>
+      </div>
       <input id="submit" type="submit" value="Enviar formulario" />
       <input id="reset" type="reset" value="Limpiar formulario" />
+      <img src="images/map.png" alt="mapa" id="mapa">
     </form>
+
   </main>
   <footer>
     <div id="copyright"><em>Copyright</em></div>
