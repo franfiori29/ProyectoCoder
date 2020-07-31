@@ -85,7 +85,9 @@
   }
 
   main {
+    text-shadow: 4px 1px 4px rgba(0, 0, 0, 0.73);
     background: rgb(98, 119, 158, 0.6);
+    color: white;
   }
 
   #galeriaCabildo {
@@ -99,17 +101,6 @@
     height: 30vh;
     width: auto;
     margin: 5px;
-  }
-
-  #bannerIndex {
-    position: relative;
-    text-align: center;
-  }
-
-  #mainImagen {
-    max-width: 100%;
-    height: auto;
-    filter: blur(2px);
   }
 
   #bannerIndex {
@@ -174,9 +165,12 @@
   #tituloContacto {
     text-align: center;
     color: rgb(255, 255, 255);
+    padding: 10px 0;
   }
   form {
     font-size: 25px;
+    color: white;
+    font-weight: 600;
     display: grid;
     grid-template-columns: 0.5fr 3fr 1fr;
   }
@@ -186,6 +180,8 @@
   form input {
     border-radius: 20px;
     margin: 10px;
+    font-weight: 900;
+    letter-spacing: 2px;
   }
   #nombreContacto {
     grid-column: 2;
