@@ -6,6 +6,4 @@ var menuDesplegable = function () {
     } else {
         navLinks.style.display = "none"
     }
-
-
 }
