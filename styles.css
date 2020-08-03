@@ -1,4 +1,4 @@
-@media (min-width: 1024px) {
+@media (min-width: 720px) {
   @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap");
 
   * {
@@ -88,6 +88,10 @@
     text-shadow: 4px 1px 4px rgba(0, 0, 0, 0.73);
     background: rgb(98, 119, 158, 0.6);
     color: white;
+  }
+  #h1-galeria {
+    text-align: center;
+    padding: 15px;
   }
 
   #galeriaCabildo {

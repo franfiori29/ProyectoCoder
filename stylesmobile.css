@@ -1,4 +1,4 @@
-@media (max-width: 480px) {
+@media (max-width: 720px) {
   @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap");
 
   * {
@@ -188,6 +188,10 @@
     font-size: 20px;
     padding: 10px;
   }
+  #h1-galeria {
+    text-align: center;
+    padding: 15px;
+  }
 
   #galeriaMain {
     text-align: center;
@@ -196,6 +200,7 @@
   #galeriaMain img {
     max-width: 100%;
     height: auto;
+    padding: 10px;
   }
   #mainProyectos {
     display: grid;
