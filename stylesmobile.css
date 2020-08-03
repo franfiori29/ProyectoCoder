@@ -197,4 +197,19 @@
     max-width: 100%;
     height: auto;
   }
+  #mainProyectos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 10px;
+  }
+
+  #mainProyectos > div {
+    border: 2px solid #181412;
+    border-radius: 5px;
+    padding: 1em;
+  }
+  .tablaHead {
+    font-weight: bolder;
+    font-size: 10px;
+  }
 }
