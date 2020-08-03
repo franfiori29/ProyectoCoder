@@ -1,71 +1,77 @@
 <!DOCTYPE html>
 <html lang="es-AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesMobile.css" />
+    <link rel="stylesheet" href="stylesTablet.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Contacto</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="stylesMobile.css">
-  <link rel="stylesheet" href="stylesTablet.css">
-  <link rel="stylesheet" href="styles.css" />
-  <title>Contacto</title>
-</head>
-
-<body>
-  <header id="header">
-    <div id="logo">
-      <a href="index.html"> <em>Fontanelle</em> </a>
-    </div>
-    <nav id="navegacion">
-      <img src="images/menu.svg" id="menu" alt="" onclick="menuDesplegable();">
-      <ul class="nav-links">
-        <li class="item"><a href="proyectos.html">Proyectos</a></li>
-        <li class="item"><a href="galeria.html">Galería</a></li>
-        <li class="item"><a href="contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <h1 id="tituloContacto">Contactanos!</h1>
-    <form action="POST">
-      <div id="nombreContacto">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" required />
+  <body>
+    <header id="header">
+      <div id="logo">
+        <a href="index.html"> <em>Fontanelle</em> </a>
       </div>
-      <div id="apellidoContacto">
-        <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" required />
+      <nav id="navegacion">
+        <img
+          src="images/menu.svg"
+          id="menu"
+          alt=""
+          onclick="menuDesplegable();"
+        />
+        <ul class="nav-links">
+          <li class="item"><a href="proyectos.html">Proyectos</a></li>
+          <li class="item"><a href="galeria.html">Galería</a></li>
+          <li class="item"><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 id="tituloContacto">Contactanos!</h1>
+      <form action="POST">
+        <div id="nombreContacto">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" required />
+        </div>
+        <div id="apellidoContacto">
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" required />
+        </div>
+        <div id="mailContacto">
+          <label for="mail">E-mail:</label>
+          <input type="email" id="mail" required />
+        </div>
+        <div id="divNewsletter">
+          <label for="newsletter" id="preguntaContacto"
+            >¿Desea recibir el Newsletter?</label
+          >
+          <input type="checkbox" id="newsletter" />
+        </div>
+        <div id="comentariosContacto">
+          <label for="comentarios" id="mensajeContacto"
+            >Dejanos tu mensaje:</label
+          >
+          <textarea id="comentarios" cols="30" rows="10"></textarea>
+        </div>
+        <input id="submit" type="submit" value="Enviar formulario" />
+        <input id="reset" type="reset" value="Limpiar formulario" />
+        <img src="images/map.png" alt="mapa" id="mapa" />
+      </form>
+    </main>
+    <footer>
+      <div id="copyright"><em>Copyright</em></div>
+      <div><a id="sobre-nosotros" href="about.html">Sobre nosotros</a></div>
+      <div id="info-contacto">
+        <ul id="lista-contacto">
+          Información de contacto
+          <li>Av. Belgrano 1586, 7° Piso</li>
+          <li>4381-1111</li>
+          <li>info@fontanellesrl.com</li>
+        </ul>
       </div>
-      <div id="mailContacto">
-        <label for="mail">E-mail:</label>
-        <input type="email" id="mail" required />
-      </div>
-      <div id="divNewsletter">
-        <label for="newsletter" id="preguntaContacto">¿Desea recibir el Newsletter?</label>
-        <input type="checkbox" id="newsletter" />
-      </div>
-      <div id="comentariosContacto">
-        <label for="comentarios" id="mensajeContacto">Dejanos tu mensaje:</label>
-        <textarea id="comentarios" cols="30" rows="10"></textarea>
-      </div>
-      <input id="submit" type="submit" value="Enviar formulario" />
-      <input id="reset" type="reset" value="Limpiar formulario" />
-      <img src="images/map.png" alt="mapa" id="mapa">
-    </form>
-
-  </main>
-  <footer>
-    <div id="copyright"><em>Copyright</em></div>
-    <div><a id="sobre-nosotros" href="about.html">Sobre nosotros</a></div>
-    <div id="info-contacto">
-      <ul id="lista-contacto">
-        Informacion de contacto
-        <li>Dirección</li>
-        <li>Teléfono</li>
-        <li>Mail</li>
-      </ul>
-    </div>
-  </footer>
-  <script src="main.js"></script>
-</body>
-
+    </footer>
+    <script src="main.js"></script>
+  </body>
 </html>
