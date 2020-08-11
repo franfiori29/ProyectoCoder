@@ -11,40 +11,6 @@
     display: none;
   }
 
-  header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 6vh;
-    background-color: #5d5c61;
-    top: 0;
-  }
-
-  #logo {
-    flex: 1;
-  }
-
-  #logo a {
-    margin-left: 30px;
-  }
-
-  nav {
-    flex: 1;
-  }
-
-  .nav-links {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .nav-links li {
-    padding: 10px;
-  }
-
-  .nav-links a:hover {
-    color: rgb(34, 211, 235);
-  }
-
   a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -237,5 +203,13 @@
     grid-column: 3;
     grid-row: 5;
     margin: 0 25px 0 100px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-brand.abs {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
   }
 }
