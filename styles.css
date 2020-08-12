@@ -25,15 +25,6 @@
     resize: none;
   }
 
-  footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    color: aliceblue;
-    background: linear-gradient(to left, #2c3e50, #bdc3c7);
-  }
-
   #about-main {
     text-align: center;
   }
@@ -134,75 +125,6 @@
   .tablaHead {
     font-weight: bolder;
     font-size: 20px;
-  }
-  #tituloContacto {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    padding: 10px 0;
-  }
-  form {
-    font-size: 25px;
-    color: white;
-    font-weight: 600;
-    display: grid;
-    grid-template-columns: 0.5fr 3fr 1fr;
-  }
-  form div {
-    margin: 5px 0;
-  }
-  form input {
-    border-radius: 20px;
-    margin: 10px;
-    font-weight: 900;
-    letter-spacing: 2px;
-  }
-  #nombreContacto {
-    grid-column: 2;
-    grid-row: 1;
-  }
-  #apellidoContacto {
-    grid-column: 2;
-    grid-row: 2;
-  }
-  #mailContacto {
-    grid-column: 2;
-    grid-row: 3;
-  }
-  #divNewsletter {
-    grid-column: 2;
-    grid-row: 4;
-  }
-  #comentariosContacto {
-    display: flex;
-    flex-wrap: wrap;
-    grid-column: 2;
-    grid-row: 5;
-  }
-  #mensajeContacto {
-    width: 100%;
-  }
-  textarea {
-    width: 80%;
-    border-radius: 20px;
-  }
-  #submit {
-    grid-column: 2;
-    grid-row: 6;
-    width: 30%;
-    height: 30px;
-    border-radius: 20px;
-  }
-  #reset {
-    grid-column: 2;
-    grid-row: 7;
-    width: 30%;
-    height: 30px;
-    border-radius: 20px;
-  }
-  #mapa {
-    grid-column: 3;
-    grid-row: 5;
-    margin: 0 25px 0 100px;
   }
 }
 @media (min-width: 768px) {
