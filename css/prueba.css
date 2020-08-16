@@ -27,7 +27,7 @@ main form {
   main form .forma__nombre {
     grid-column: 2;
     grid-row: 1; }
-  main form .forma__napellido {
+  main form .forma__apellido {
     grid-column: 2;
     grid-row: 2; }
   main form .forma__mail {
@@ -37,10 +37,11 @@ main form {
     grid-column: 2;
     grid-row: 4; }
   main form .forma__comentarios {
-    display: flex;
-    flex-wrap: wrap;
     grid-column: 2;
     grid-row: 5; }
+  main form .forma__comentarios {
+    display: flex;
+    flex-wrap: wrap; }
     main form .forma__comentarios .forma__comentarios__mensaje {
       width: 100%; }
     main form .forma__comentarios textarea {

@@ -28,27 +28,24 @@ main {
         letter-spacing: 2px;
       }
     }
-    .forma__nombre {
-      grid-column: 2;
-      grid-row: 1;
+
+    $gridContacto: (
+      nombre: 1,
+      apellido: 2,
+      mail: 3,
+      newsletter: 4,
+      comentarios: 5,
+    );
+    @each $clase, $numero in $gridContacto {
+      .forma__#{$clase} {
+        grid-column: 2;
+        grid-row: $numero;
+      }
     }
-    .forma__napellido {
-      grid-column: 2;
-      grid-row: 2;
-    }
-    .forma__mail {
-      grid-column: 2;
-      grid-row: 3;
-    }
-    .forma__newsletter {
-      grid-column: 2;
-      grid-row: 4;
-    }
+
     .forma__comentarios {
       display: flex;
       flex-wrap: wrap;
-      grid-column: 2;
-      grid-row: 5;
       .forma__comentarios__mensaje {
         width: 100%;
       }
