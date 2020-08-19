@@ -1,0 +1,65 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+  background: linear-gradient(to left, #2c3e50, #bdc3c7); }
+
+main #tituloContacto {
+  text-align: center;
+  color: white;
+  padding: 10px 0; }
+
+main form {
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+  display: grid;
+  grid-template-columns: 0.5fr 3fr 1fr; }
+  main form div {
+    margin: 5px 0; }
+    main form div input {
+      border-radius: 20px;
+      margin: 10px;
+      font-weight: 900;
+      letter-spacing: 2px; }
+  main form .forma__nombre {
+    grid-column: 2;
+    grid-row: 1; }
+  main form .forma__apellido {
+    grid-column: 2;
+    grid-row: 2; }
+  main form .forma__mail {
+    grid-column: 2;
+    grid-row: 3; }
+  main form .forma__newsletter {
+    grid-column: 2;
+    grid-row: 4; }
+  main form .forma__comentarios {
+    grid-column: 2;
+    grid-row: 5; }
+  main form .forma__comentarios {
+    display: flex;
+    flex-wrap: wrap; }
+    main form .forma__comentarios .forma__comentarios__mensaje {
+      width: 100%; }
+    main form .forma__comentarios textarea {
+      width: 80%;
+      border-radius: 20px; }
+  main form .forma__submit {
+    grid-column: 2;
+    grid-row: 6;
+    width: 30%;
+    height: 30px;
+    border-radius: 20px; }
+  main form .forma__reset {
+    grid-column: 2;
+    grid-row: 7;
+    width: 30%;
+    height: 30px;
+    border-radius: 20px; }
+  main form .forma__mapa {
+    grid-column: 3;
+    grid-row: 5;
+    margin: 0 25px 0 100px; }

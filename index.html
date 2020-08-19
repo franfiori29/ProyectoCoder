@@ -1,49 +1,82 @@
 <!DOCTYPE html>
 <html lang="es-AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="stylesMobile.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/prueba.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Fontanelle SRL</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="stylesmobile.css">
-  <title>Fontanelle SRL</title>
-</head>
-
-<body>
-  <header id="header">
-    <div id="logo">
-      <a href="index.html">LOGO</a>
-    </div>
-    <nav id="navegacion">
-      <ul class="nav-links">
-        <li class="item"><a href="proyectos.html">Proyectos</a></li>
-        <li class="item"><a href="galeria.html">Galería</a></li>
-        <li class="item"><a href="contacto.html">Contacto</a></li>
-      </ul>
+  <body>
+    <nav
+      class="navbar navbar-light navbar-expand-md bg-faded justify-content-center"
+    >
+      <a href="index.html" class="navbar-brand d-flex w-50 mr-auto"
+        >Fontanelle</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsingNavbar3"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+        <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="proyectos.html">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeria.html">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-  </header>
 
-  <main id="main-index">
-    <section>
-      <h1 class="titulo">FONTANELLE SRL</h1>
-      <h3 class="descripcion">Desarrollos inmobiliarios</h3>
-      <h3 class="descripcion">Empresa Constructora</h3>
-      <h3 class="descripcion">Estudio de Arquitectura</h3>
-    </section>
-  </main>
+    <main id="main-index">
+      <section id="bannerIndex">
+        <img id="mainImagen" src="images/mainImagen.jpg" />
+        <div id="descripcionIndex">
+          <h1 class="" id="fontanelleIndex" class="display-2">
+            FONTANELLE SRL
+          </h1>
+          <h3 class="description h3-1">Desarrollos inmobiliarios</h3>
+          <h3 class="description h3-2">Empresa Constructora</h3>
+          <h3 class="description h3-3">Estudio de Arquitectura</h3>
+        </div>
+      </section>
+    </main>
 
-  <footer>
-    <div id="copyright">Copyright</div>
-    <div><a id="sobre-nosotros" href="about.html">Sobre nosotros</a></div>
-    <div id="info-contacto">
-      <ul id="lista-contacto">
-        Informacion de contacto
-        <li>Dirección</li>
-        <li>Teléfono</li>
-        <li>Mail</li>
-      </ul>
-    </div>
-  </footer>
-</body>
-
+    <footer>
+      <div id="copyright">Copyright</div>
+      <div><a id="sobre-nosotros" href="about.html">Sobre nosotros</a></div>
+      <div id="info-contacto">
+        <ul id="lista-contacto">
+          Información de contacto
+          <li>Av. Belgrano 1586, 7° Piso</li>
+          <li>4381-1111</li>
+          <li>info@fontanellesrl.com</li>
+        </ul>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
 </html>

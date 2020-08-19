@@ -1,63 +1,86 @@
 <!DOCTYPE html>
 <html lang="es-AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="stylesMobile.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/prueba.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="stylesmobile.css">
-  <title>Proyectos</title>
-</head>
-
-<body>
-  <header id="header">
-    <div id="logo">
-      <a href="index.html">LOGO</a>
-    </div>
-    <nav id="navegacion">
-      <ul class="nav-links">
-        <li class="item"><a href="proyectos.html">Proyectos</a></li>
-        <li class="item"><a href="galeria.html">Galería</a></li>
-        <li class="item"><a href="contacto.html">Contacto</a></li>
-      </ul>
+  <body>
+    <nav
+      class="navbar navbar-light navbar-expand-md bg-faded justify-content-center"
+    >
+      <a href="index.html" class="navbar-brand d-flex w-50 mr-auto"
+        >Fontanelle</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsingNavbar3"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+        <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="proyectos.html">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeria.html">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-  </header>
-  <main>
-    <!-- NO CREO QUE VAYA A USAR TABLAS, PUSE ESTA COMO EJEMPLO Y PARA COMPLETAR EL EJERCICIO -->
-    <table>
-      <tr class="table-head">
-        <th>Dirección</th>
-        <th>Barrio</th>
-        <th>Estado</th>
-        <th>Características</th>
-      </tr>
-      <tr>
-        <td>Otamendi 583</td>
-        <td>Caballito</td>
-        <td>En ejecución</td>
-        <td>3 ambientes</td>
-      </tr>
-      <tr>
-        <td>Lacroze 512</td>
-        <td>Palermo</td>
-        <td>Finalizada</td>
-        <td>5 ambientes</td>
-      </tr>
-    </table>
-  </main>
 
-  <footer>
-    <div id="copyright">Copyright</div>
-    <div><a id="sobre-nosotros" href="about.html">Sobre nosotros</a></div>
-    <div id="info-contacto">
-      <ul id="lista-contacto">
-        Informacion de contacto
-        <li>Dirección</li>
-        <li>Teléfono</li>
-        <li>Mail</li>
-      </ul>
-    </div>
-  </footer>
-</body>
+    <main id="mainProyectos">
+      <div class="tablaHead">Direccion</div>
+      <div class="tablaHead">Barrio</div>
+      <div class="tablaHead">Estado</div>
+      <div class="tablaHead">Características</div>
+      <div>Otamendi 1245</div>
+      <div>Palermo</div>
+      <div>En ejecución</div>
+      <div>3 Ambientes</div>
+      <div>Jose C Paz 125</div>
+      <div>Colegiales</div>
+      <div>Finalizado</div>
+      <div>2 Ambientes</div>
+      <div>Libertador 983</div>
+      <div>Belgrano</div>
+      <div>En ejecución</div>
+      <div>5 ambientes</div>
+    </main>
 
+    <footer>
+      <div id="copyright">Copyright</div>
+      <div><a id="sobre-nosotros" href="about.html">Sobre nosotros</a></div>
+      <div id="info-contacto">
+        <ul id="lista-contacto">
+          Información de contacto
+          <li>Av. Belgrano 1586, 7° Piso</li>
+          <li>4381-1111</li>
+          <li>info@fontanellesrl.com</li>
+        </ul>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
 </html>

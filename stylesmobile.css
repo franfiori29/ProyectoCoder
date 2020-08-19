@@ -1,0 +1,219 @@
+@media (max-width: 720px) {
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap");
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+  }
+
+  body {
+    min-width: 282px;
+  }
+  #mapa {
+    display: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  textarea {
+    resize: none;
+    margin: 5px;
+    width: 100%;
+  }
+
+  header {
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5d5c61;
+  }
+
+  #logo {
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    margin-left: 2px;
+    flex: 1;
+  }
+
+  #navegacion {
+    display: flex;
+    position: relative;
+  }
+
+  nav {
+    flex: 1;
+    flex-flow: row-reverse;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    top: 30px;
+    right: 10px;
+    z-index: 1;
+  }
+
+  .nav-links li {
+    margin-top: 10px;
+  }
+
+  .nav-links a {
+    font-size: 30px;
+    color: black;
+  }
+
+  #menu {
+    margin-right: 1px;
+    width: 30px;
+    height: auto;
+  }
+
+  main {
+    background: rgb(98, 119, 158, 0.6);
+  }
+
+  form {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #divNewsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #comentariosContacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #preguntaContacto {
+    text-align: center;
+    width: 100%;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    color: aliceblue;
+    background: linear-gradient(to left, #2c3e50, #bdc3c7);
+    font-size: 20px;
+  }
+
+  #tituloContacto {
+    text-align: center;
+  }
+
+  form #submit,
+  form #reset {
+    font-size: 20px;
+    margin: 10px 15px;
+    color: #5d5c61;
+  }
+
+  form div {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  form input {
+    max-width: 200px;
+  }
+
+  #bannerIndex {
+    position: relative;
+    text-align: center;
+  }
+
+  #mainImagen {
+    max-width: 100%;
+    height: auto;
+    filter: blur(2px);
+  }
+
+  #descripcionIndex {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    min-width: 75%;
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+  }
+
+  #fontanelleIndex {
+    margin-bottom: 10px;
+  }
+
+  #about-imagen {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #about-texto {
+    font-size: 20px;
+    padding: 10px;
+  }
+  #h1-galeria {
+    text-align: center;
+    padding: 15px;
+  }
+
+  #galeriaMain {
+    text-align: center;
+  }
+
+  #galeriaMain img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  #mainProyectos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 10px;
+  }
+
+  #mainProyectos > div {
+    border: 2px solid #181412;
+    border-radius: 5px;
+    padding: 1em;
+  }
+  .tablaHead {
+    font-weight: bolder;
+    font-size: 10px;
+  }
+  section div {
+    width: 100%;
+  }
+}
