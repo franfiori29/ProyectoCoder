@@ -184,7 +184,8 @@
     font-size: 20px;
     padding: 10px;
   }
-  #h1-galeria {
+  .h2Galeria {
+
     text-align: center;
     padding: 15px;
   }
@@ -215,5 +216,10 @@
   }
   section div {
     width: 100%;
+  }
+}
+@media (max-width: 960px){
+  .forma__mapa{
+    visibility: hidden;
   }
 }

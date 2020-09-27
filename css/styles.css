@@ -46,12 +46,12 @@
     background: rgb(98, 119, 158, 0.6);
     color: white;
   }
-  #h1-galeria {
+  .h2Galeria {
     text-align: center;
     padding: 15px;
   }
 
-  #galeriaCabildo {
+  .divGaleria {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
