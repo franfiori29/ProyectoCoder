@@ -2,10 +2,15 @@
 <html lang="es-AR">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Estudio de arquitectura" />
+    <meta
+      name="keywords"
+      content="arquitectura, proyectos, construccion,desarrollos"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="stylesMobile.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/stylemobile.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/prueba.css" />
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -18,16 +23,14 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/bootstrap.min.js"></script>
-    <title>Contacto</title>
+    <title>Contacto - Fontanelle</title>
   </head>
 
   <body>
     <nav
       class="navbar navbar-light navbar-expand-md bg-faded justify-content-center"
     >
-      <a href="index.html" class="navbar-brand d-flex w-50 mr-auto"
-        >Fontanelle</a
-      >
+      <a href="index.html" class="navbar-brand d-flex w-50 mr-auto">Fontanelle</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -56,21 +59,11 @@
       <form action="POST" class="forma">
         <div id="nombreContacto" class="forma__nombre">
           <label for="nombre">Nombre:</label>
-          <input
-            type="text"
-            id="nombre"
-            class="forma__nombre__input"
-            required
-          />
+          <input type="text" id="nombre" class="forma__nombre__input" required />
         </div>
         <div id="apellidoContacto" class="forma__apellido">
           <label for="apellido">Apellido:</label>
-          <input
-            type="text"
-            id="apellido"
-            class="forma__apellido__input"
-            required
-          />
+          <input type="text" id="apellido" class="forma__apellido__input" required />
         </div>
         <div id="mailContacto" class="forma__mail">
           <label for="mail">E-mail:</label>
@@ -103,13 +96,13 @@
         <input
           id="submit"
           type="submit"
-          value="Enviar formulario"
+          value="Enviar"
           class="forma__submit"
         />
         <input
           id="reset"
           type="reset"
-          value="Limpiar formulario"
+          value="Reset"
           class="forma__reset"
         />
         <img src="images/map.png" alt="mapa" id="mapa" class="forma__mapa" />
@@ -127,6 +120,6 @@
         </ul>
       </div>
     </footer>
-    <script src="main.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

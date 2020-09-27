@@ -52,13 +52,15 @@ main form {
     grid-row: 6;
     width: 30%;
     height: 30px;
-    border-radius: 20px; }
+    border-radius: 20px; 
+    font-size: 75%;}
   main form .forma__reset {
     grid-column: 2;
     grid-row: 7;
     width: 30%;
     height: 30px;
-    border-radius: 20px; }
+    border-radius: 20px;
+    font-size: 75%; }
   main form .forma__mapa {
     grid-column: 3;
     grid-row: 5;
